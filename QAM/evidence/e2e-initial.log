@@ -1,0 +1,65 @@
+
+> stark-web-factory-starter@0.1.0 test:e2e
+> playwright test
+
+(node:1736009) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2m[WebServer] [22m(node:1736042) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 2 workers
+
+(node:1736061) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1736062) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1736061) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:1736061) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1736062) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:1736062) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › tests/home.spec.ts:3:5 › homepage, accessible navigation and responsive layout (2.5s)
+  ✘  2 [mobile] › tests/home.spec.ts:3:5 › homepage, accessible navigation and responsive layout (6.6s)
+
+
+  1) [mobile] › tests/home.spec.ts:3:5 › homepage, accessible navigation and responsive layout ─────
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveAttribute[2m([22m[32mexpected[39m[2m)[22m failed
+
+    Locator: getByRole('button', { name: 'Open menu' })
+    Expected: [32m"true"[39m
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toHaveAttribute" with timeout 5000ms[22m
+    [2m  - waiting for getByRole('button', { name: 'Open menu' })[22m
+
+
+      25 |     await menu.focus();
+      26 |     await page.keyboard.press("Enter");
+    > 27 |     await expect(menu).toHaveAttribute("aria-expanded", "true");
+         |                        ^
+      28 |     await expect(nav).toBeVisible();
+      29 |     await noOverflow();
+      30 |     await page.keyboard.press("Tab");
+        at /home/moose/nextjs/web-factory-nextjs-starter-v1/tests/home.spec.ts:27:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/home-homepage-accessible-navigation-and-responsive-layout-mobile/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/home-homepage-accessible-navigation-and-responsive-layout-mobile/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/home-homepage-accessible-navigation-and-responsive-layout-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/home-homepage-accessible-navigation-and-responsive-layout-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [mobile] › tests/home.spec.ts:3:5 › homepage, accessible navigation and responsive layout ──────
+  1 passed (8.9s)
