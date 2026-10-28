@@ -1,0 +1,19 @@
+[
+  {
+    "name": "B1-desktop-navigation",
+    "status": "PASS"
+  },
+  {
+    "name": "B2-mobile-pointer",
+    "status": "FAIL",
+    "error": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator: getByRole('navigation')\nExpected: \"primary-navigation\"\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"to.have.attribute.value\" with timeout 5000ms\n  - waiting for getByRole('navigation')\n\n    at Proxy.<anonymous> (/tmp/stark-qa-q2-20261028T081836Z/node_modules/playwright/lib/matchers/expect.js:213:24)\n    at /tmp/stark-qa-q2-20261028T081836Z/qa-independent.cjs:103:25\n    at async run (/tmp/stark-qa-q2-20261028T081836Z/qa-independent.cjs:47:5)\n    at async /tmp/stark-qa-q2-20261028T081836Z/qa-independent.cjs:99:5"
+  },
+  {
+    "name": "B3-keyboard-focus",
+    "status": "PASS"
+  },
+  {
+    "name": "B4-breakpoints-B6-overflow",
+    "status": "PASS"
+  }
+]

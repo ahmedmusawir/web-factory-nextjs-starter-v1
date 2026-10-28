@@ -1,0 +1,198 @@
+{
+  "results": [
+    {
+      "name": "B1-desktop-navigation",
+      "status": "PASS"
+    },
+    {
+      "name": "B2-mobile-pointer",
+      "status": "FAIL",
+      "error": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator: getByRole('navigation')\nExpected: \"primary-navigation\"\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"to.have.attribute.value\" with timeout 5000ms\n  - waiting for getByRole('navigation')\n\n    at Proxy.<anonymous> (/tmp/stark-qa-q2-20261028T081836Z/node_modules/playwright/lib/matchers/expect.js:213:24)\n    at /tmp/stark-qa-q2-20261028T081836Z/qa-independent.cjs:103:25\n    at async run (/tmp/stark-qa-q2-20261028T081836Z/qa-independent.cjs:47:5)\n    at async /tmp/stark-qa-q2-20261028T081836Z/qa-independent.cjs:99:5"
+    },
+    {
+      "name": "B3-keyboard-focus",
+      "status": "PASS"
+    },
+    {
+      "name": "B4-breakpoints-B6-overflow",
+      "status": "PASS"
+    }
+  ],
+  "observations": [
+    {
+      "browserVersion": "147.0.7727.15",
+      "base": "http://127.0.0.1:3001",
+      "smoke": false
+    },
+    {
+      "label": "desktop",
+      "localImage": {
+        "status": 200,
+        "type": "image/svg+xml",
+        "dimensions": [
+          600,
+          640
+        ]
+      }
+    },
+    {
+      "label": "desktop",
+      "widths": {
+        "viewport": 1440,
+        "client": 1440,
+        "scroll": 1440,
+        "body": 1440
+      }
+    },
+    {
+      "label": "skip",
+      "focus": {
+        "tag": "A",
+        "id": "",
+        "text": "Skip to content",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(154, 52, 18)",
+        "display": "block",
+        "visibility": "visible",
+        "width": 137.84375,
+        "height": 48
+      }
+    },
+    {
+      "label": "menu-button",
+      "focus": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Open menu",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(154, 52, 18)",
+        "display": "block",
+        "visibility": "visible",
+        "width": 111.015625,
+        "height": 38
+      }
+    },
+    {
+      "label": "keyboard-selection",
+      "focus": {
+        "tag": "SECTION",
+        "id": "about",
+        "text": "A little space. A lot of possibility.We believe a good website begins with a cle",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(154, 52, 18)",
+        "display": "block",
+        "visibility": "visible",
+        "width": 327,
+        "height": 282
+      }
+    },
+    {
+      "label": "767-closed",
+      "widths": {
+        "viewport": 767,
+        "client": 767,
+        "scroll": 767,
+        "body": 767
+      }
+    },
+    {
+      "label": "767-open",
+      "widths": {
+        "viewport": 767,
+        "client": 767,
+        "scroll": 767,
+        "body": 767
+      }
+    },
+    {
+      "label": "768-desktop",
+      "widths": {
+        "viewport": 768,
+        "client": 768,
+        "scroll": 768,
+        "body": 768
+      }
+    },
+    {
+      "label": "after-mobile-to-desktop",
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to contentStark Studio.Close menuApproachAboutA small studio. A fresh persp",
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(28, 25, 23)",
+        "display": "block",
+        "visibility": "visible",
+        "width": 768,
+        "height": 1438.75
+      }
+    },
+    {
+      "label": "after-desktop-to-mobile",
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Skip to contentStark Studio.Open menuApproachAboutA small studio. A fresh perspe",
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(28, 25, 23)",
+        "display": "block",
+        "visibility": "visible",
+        "width": 767,
+        "height": 2294.421875
+      }
+    },
+    {
+      "label": "320-closed",
+      "widths": {
+        "viewport": 320,
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    },
+    {
+      "label": "320-open",
+      "widths": {
+        "viewport": 320,
+        "client": 320,
+        "scroll": 320,
+        "body": 320
+      }
+    }
+  ],
+  "traffic": [
+    {
+      "name": "B1-desktop-navigation",
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "external": []
+    },
+    {
+      "name": "B2-mobile-pointer",
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "external": []
+    },
+    {
+      "name": "B3-keyboard-focus",
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "external": []
+    },
+    {
+      "name": "B4-breakpoints-B6-overflow",
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "external": []
+    }
+  ]
+}

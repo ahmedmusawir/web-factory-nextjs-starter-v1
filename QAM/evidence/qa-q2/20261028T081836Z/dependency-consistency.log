@@ -1,0 +1,39 @@
+{
+  "direct": {
+    "next": "16.4.3",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "@playwright/test": "1.59.1",
+    "@types/node": "20.19.43",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "autoprefixer": "10.6.2",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.4.3",
+    "postcss": "8.5.23",
+    "tailwindcss": "3.4.19",
+    "typescript": "5.9.3"
+  },
+  "paths": {
+    "postcss": {
+      "path": "/tmp/stark-qa-q2-20261028T081836Z/node_modules/postcss/lib/postcss.js",
+      "version": "8.5.23"
+    },
+    "sharp": {
+      "path": "/tmp/stark-qa-q2-20261028T081836Z/node_modules/sharp/dist/index.cjs",
+      "version": "0.35.5",
+      "native": "8.18.7"
+    }
+  },
+  "allPostcssSharpPaths": [
+    {
+      "path": "node_modules/postcss",
+      "version": "8.5.23"
+    },
+    {
+      "path": "node_modules/sharp",
+      "version": "0.35.5"
+    }
+  ],
+  "lockfileHash": "a4db1b8de41f412581f7af81216060cc6e2ff1c64bed27c9a365df7bf614e279"
+}

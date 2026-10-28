@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "name": "dev-smoke",
+      "status": "PASS"
+    }
+  ],
+  "observations": [
+    {
+      "browserVersion": "147.0.7727.15",
+      "base": "http://127.0.0.1:3001",
+      "smoke": true
+    },
+    {
+      "label": "dev",
+      "localImage": {
+        "status": 200,
+        "type": "image/svg+xml",
+        "dimensions": [
+          600,
+          640
+        ]
+      }
+    },
+    {
+      "label": "dev",
+      "widths": {
+        "viewport": 375,
+        "client": 375,
+        "scroll": 375,
+        "body": 375
+      }
+    }
+  ],
+  "traffic": [
+    {
+      "name": "dev-smoke",
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "external": []
+    }
+  ]
+}

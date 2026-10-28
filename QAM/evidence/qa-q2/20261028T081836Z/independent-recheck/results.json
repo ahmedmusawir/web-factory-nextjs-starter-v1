@@ -1,0 +1,92 @@
+{
+  "results": [
+    {
+      "name": "B2-mobile-pointer",
+      "status": "PASS"
+    }
+  ],
+  "observations": [
+    {
+      "browserVersion": "147.0.7727.15",
+      "base": "http://127.0.0.1:3001",
+      "smoke": false
+    },
+    {
+      "label": "mobile",
+      "localImage": {
+        "status": 200,
+        "type": "image/svg+xml",
+        "dimensions": [
+          600,
+          640
+        ]
+      }
+    },
+    {
+      "label": "mobile-closed",
+      "widths": {
+        "viewport": 375,
+        "client": 375,
+        "scroll": 375,
+        "body": 375
+      }
+    },
+    {
+      "label": "mobile-open-0",
+      "widths": {
+        "viewport": 375,
+        "client": 375,
+        "scroll": 375,
+        "body": 375
+      }
+    },
+    {
+      "label": "mobile-open-1",
+      "widths": {
+        "viewport": 375,
+        "client": 375,
+        "scroll": 375,
+        "body": 375
+      }
+    },
+    {
+      "label": "pointer-selection-about",
+      "focus": {
+        "tag": "SECTION",
+        "id": "about",
+        "text": "A little space. A lot of possibility.We believe a good website begins with a cle",
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(28, 25, 23)",
+        "display": "block",
+        "visibility": "visible",
+        "width": 327,
+        "height": 282
+      }
+    },
+    {
+      "label": "pointer-selection-approach",
+      "focus": {
+        "tag": "SECTION",
+        "id": "approach",
+        "text": "Our approachGood things start with the essentials.01Start with purposeGive your ",
+        "outlineStyle": "none",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(28, 25, 23)",
+        "display": "block",
+        "visibility": "visible",
+        "width": 327,
+        "height": 769
+      }
+    }
+  ],
+  "traffic": [
+    {
+      "name": "B2-mobile-pointer",
+      "errors": [],
+      "failed": [],
+      "bad": [],
+      "external": []
+    }
+  ]
+}

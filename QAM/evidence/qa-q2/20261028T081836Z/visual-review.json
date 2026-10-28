@@ -1,0 +1,18 @@
+{
+  "method": "Executor personally inspected these screenshots using the image viewer",
+  "observations": {
+    "independent/desktop-full.png": "Readable two-column hero, local artwork, three-column approach, about panel and footer; no clipping.",
+    "independent-recheck/mobile-full.png": "Readable single-column layout, local artwork and footer; no horizontal clipping.",
+    "independent-recheck/mobile-open-0.png": "Disclosure links and close button visible and separated from main content.",
+    "independent-recheck/mobile-open-1.png": "Repeated open state remains visually consistent.",
+    "independent/skip-focus.png": "Skip link visible at top with a strong outline.",
+    "independent/menu-button-focus.png": "Menu button has visible brown focus outline.",
+    "independent/nav-link-focus.png": "Focused Approach link has visible outline.",
+    "independent/escape-focus-return.png": "Collapsed menu and visibly focused Open menu button after Escape.",
+    "independent/breakpoint-768.png": "Desktop nav and two-column content fit at breakpoint.",
+    "independent/narrow-320-closed.png": "Text wraps at 320px; controls and content remain within width.",
+    "independent/narrow-320-open.png": "Expanded disclosure and main content fit narrow width.",
+    "dev/dev-mobile.png": "Dev page matches layout and local image; standard Next development indicator is present."
+  },
+  "productVisualDefects": []
+}

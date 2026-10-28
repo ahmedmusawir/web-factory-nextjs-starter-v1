@@ -1,0 +1,29 @@
+{
+  "run": "20261028T081836Z",
+  "repo": "/home/moose/nextjs/web-factory-nextjs-starter-v1",
+  "work": "/tmp/stark-qa-q2-20261028T081836Z",
+  "evidence": "/home/moose/nextjs/web-factory-nextjs-starter-v1/QAM/evidence/qa-q2/20261028T081836Z",
+  "branch": "feat/minimal-web-starter",
+  "head": "6b4b761995483b260f72259ae3102325d9e8ef54",
+  "fingerprint": "323ae21c9f3aaa7823382c5e41e675f8e167af43b163da9d1960218f284b02e9",
+  "files": [
+    ".gitignore",
+    "README.md",
+    "app/globals.css",
+    "app/layout.tsx",
+    "app/page.tsx",
+    "components/site-header.tsx",
+    "content/site.ts",
+    "eslint.config.mjs",
+    "package-lock.json",
+    "package.json",
+    "playwright.config.ts",
+    "postcss.config.mjs",
+    "public/images/starter.svg",
+    "tailwind.config.ts",
+    "tests/home.spec.ts",
+    "tsconfig.json"
+  ],
+  "node": "v26.7.0",
+  "npm": "11.19.0"
+}

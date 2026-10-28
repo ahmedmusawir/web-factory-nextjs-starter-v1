@@ -47,4 +47,4 @@ Results: `playwright-report/index.html`, `test-results/` (failure traces/screens
 
 Direct dependencies are pinned; commit the npm lockfile with future implementation approval. There is no CMS, database, authentication, Stripe or role portal. Payload/Supabase is deferred for this POC, not abandoned.
 
-The engineering audit found unresolved vulnerabilities in the approved Next.js pin and its PostCSS/Sharp dependencies (1 critical, 2 high package findings). See the engineering handoff and `QAM/evidence/audit.json`; a dependency update needs review before public deployment.
+The dependency repair upgraded Next.js and its matching ESLint config to 16.4.3. The follow-up audit reported zero vulnerabilities; see `agent_docs/RESPONSES/STARTER_DEPENDENCY_REPAIR.md` and `QAM/evidence/dependency-repair/audit-after.json`. The original E2 audit is retained as historical evidence. Independent QA remains NOT RUN.

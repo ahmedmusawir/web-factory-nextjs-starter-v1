@@ -1,0 +1,21 @@
+{
+  "phase": "dev",
+  "command": [
+    "npm",
+    "run",
+    "dev",
+    "--",
+    "--hostname",
+    "127.0.0.1"
+  ],
+  "port": 3001,
+  "baseURL": "http://127.0.0.1:3001",
+  "started": "2026-10-28T08:34:50.773271+00:00",
+  "pid": 1830393,
+  "processGroup": 1830393,
+  "httpStatus": 200,
+  "ready": true,
+  "serverExitCode": -15,
+  "finished": "2026-10-28T08:34:58.021011+00:00",
+  "checkExitCode": 0
+}

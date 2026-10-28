@@ -1,0 +1,146 @@
+[
+  {
+    "package": "next",
+    "url": "https://github.com/advisories/GHSA-p293-qw3h-jr36",
+    "title": "Next.js: Unauthenticated Remote Code Execution on windows-hosted servers",
+    "affected": ">=16.0.0 <16.3.3",
+    "proposed": "16.4.3",
+    "affectedProposed": false
+  },
+  {
+    "package": "next",
+    "url": "https://github.com/advisories/GHSA-2xp9-vwfh-vxw4",
+    "title": "Next.js: Unauthenticated Remote Code Execution in Image Optimization API when AVIF files are used",
+    "affected": ">=16.0.0 <16.3.3",
+    "proposed": "16.4.3",
+    "affectedProposed": false
+  },
+  {
+    "package": "next",
+    "url": "https://github.com/advisories/GHSA-vcvr-r3jv-pc5j",
+    "title": "Next.js: Remote Code Execution in next/og ImageResponse",
+    "affected": ">=16.2.0 <16.3.6",
+    "proposed": "16.4.3",
+    "affectedProposed": false
+  },
+  {
+    "package": "next",
+    "url": "https://github.com/advisories/GHSA-4jqv-mc3x-m676",
+    "title": "Next.js has cache poisoning of SSG and ISR pages in self-hosted applications",
+    "affected": ">=16.0.0 <16.3.8",
+    "proposed": "16.4.3",
+    "affectedProposed": false
+  },
+  {
+    "package": "next",
+    "url": "https://github.com/advisories/GHSA-39w2-rjm5-chcv",
+    "title": "Next.js has information disclosure in development server's Model Context Protocol endpoint",
+    "affected": ">=16.0.0 <16.3.8",
+    "proposed": "16.4.3",
+    "affectedProposed": false
+  },
+  {
+    "package": "next",
+    "url": "https://github.com/advisories/GHSA-f87g-xv8r-7p7x",
+    "title": "Next.js has information disclosure in App Router metadata image routes via dynamicParams bypass",
+    "affected": ">=16.0.0 <16.3.8",
+    "proposed": "16.4.3",
+    "affectedProposed": false
+  },
+  {
+    "package": "next",
+    "url": "https://github.com/advisories/GHSA-mcj8-r9mp-w47p",
+    "title": "Next.js has cache poisoning in SSG/ISR rendering that leads to cross-user content substitution and persistent denial of service",
+    "affected": ">=16.0.0 <16.3.8",
+    "proposed": "16.4.3",
+    "affectedProposed": false
+  },
+  {
+    "package": "next",
+    "url": "https://github.com/advisories/GHSA-cjq9-62q9-8jv4",
+    "title": "Next.js has Server-Side Request Forgery in Image Optimization",
+    "affected": ">=16.0.0 <16.3.8",
+    "proposed": "16.4.3",
+    "affectedProposed": false
+  },
+  {
+    "package": "next",
+    "url": "https://github.com/advisories/GHSA-2464-fhr4-w9xw",
+    "title": "Next.js: Unauthenticated Remote Code Execution in Image Optimization API when SVG files are used",
+    "affected": ">=16.0.0 <=16.4.0",
+    "proposed": "16.4.3",
+    "affectedProposed": false
+  },
+  {
+    "package": "next",
+    "url": "https://github.com/advisories/GHSA-p3m5-59mp-jv5r",
+    "title": "Next.js: Denial of Service in App Router using Server Actions",
+    "affected": ">=16.0.0 <=16.4.0",
+    "proposed": "16.4.3",
+    "affectedProposed": false
+  },
+  {
+    "package": "next",
+    "url": "https://github.com/advisories/GHSA-673q-mjm6-r5xr",
+    "title": "Next.js: Unauthenticated Remote Code Execution in `use cache` functions returning typed arrays",
+    "affected": ">=16.0.0 <=16.4.0",
+    "proposed": "16.4.3",
+    "affectedProposed": false
+  },
+  {
+    "package": "postcss",
+    "url": "https://github.com/advisories/GHSA-qx2v-qp2m-jg93",
+    "title": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+    "affected": "<8.5.10",
+    "proposed": "8.5.23",
+    "affectedProposed": false
+  },
+  {
+    "package": "postcss",
+    "url": "https://github.com/advisories/GHSA-6g55-p6wh-862q",
+    "title": "PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments",
+    "affected": "<=8.5.11",
+    "proposed": "8.5.23",
+    "affectedProposed": false
+  },
+  {
+    "package": "postcss",
+    "url": "https://github.com/advisories/GHSA-fxqj-rqcc-2cmp",
+    "title": "PostCSS: incomplete fix of GHSA-6g55-p6wh-862q — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset",
+    "affected": "<=8.5.22",
+    "proposed": "8.5.23",
+    "affectedProposed": false
+  },
+  {
+    "package": "postcss",
+    "url": "https://github.com/advisories/GHSA-r28c-9q8g-f849",
+    "title": "PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure",
+    "affected": "<=8.5.17",
+    "proposed": "8.5.23",
+    "affectedProposed": false
+  },
+  {
+    "package": "sharp",
+    "url": "https://github.com/advisories/GHSA-f88m-g3jw-g9cj",
+    "title": "sharp inherited vulnerabilities in libvips: CVE-2026-33327, CVE-2026-33328, CVE-2026-35590, CVE-2026-35591",
+    "affected": "<0.35.0",
+    "proposed": "0.35.5",
+    "affectedProposed": false
+  },
+  {
+    "package": "sharp",
+    "url": "https://github.com/advisories/GHSA-rgj7-g3m4-5g8c",
+    "title": "sharp: Vulnerabilities in libheif: GHSA-g89c-p67h-r497 and GHSA-2jg2-4ch7-h545",
+    "affected": "<0.35.4",
+    "proposed": "0.35.5",
+    "affectedProposed": false
+  },
+  {
+    "package": "sharp",
+    "url": "https://github.com/advisories/GHSA-wq5f-xc86-pv6w",
+    "title": "sharp : Vulnerability in librsvg dependency CVE-2026-96889",
+    "affected": "<0.35.5",
+    "proposed": "0.35.5",
+    "affectedProposed": false
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "fingerprintBefore": "323ae21c9f3aaa7823382c5e41e675f8e167af43b163da9d1960218f284b02e9",
+  "fingerprintAfter": "323ae21c9f3aaa7823382c5e41e675f8e167af43b163da9d1960218f284b02e9",
+  "preexistingFilesChecked": 60,
+  "originalFilesChanged": [],
+  "copiedCandidateInputsChanged": [],
+  "lockfileAfter": "a4db1b8de41f412581f7af81216060cc6e2ff1c64bed27c9a365df7bf614e279",
+  "branchAfter": "feat/minimal-web-starter",
+  "headAfter": "6b4b761995483b260f72259ae3102325d9e8ef54"
+}
